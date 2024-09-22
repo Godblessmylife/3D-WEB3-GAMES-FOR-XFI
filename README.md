@@ -1,5 +1,4 @@
 
-<h2>Click the Link to Play</h2>
 
 
 
