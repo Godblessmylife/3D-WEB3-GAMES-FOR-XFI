@@ -1,0 +1,151 @@
+@use "font" as *;
+@use "mixins" as *;
+
+@keyframes pulse {
+    0% {
+      color: #e1b303;
+      opacity: 1;
+    }
+    50% {
+      color:   #FF3131;
+      opacity: 0.7;
+    }
+    100% {
+      color: #e1b303;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes wiggle {
+    0% {
+      transform: translateY(0%);
+    }
+  
+    50% {
+      transform: translateY(10%);
+    }
+  
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+
+.display{
+    color: #e1b303;    
+    font-weight: 700;
+    font-family: 'Orbitron';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.hud__left{
+    position: absolute;
+    left: 3vh;
+    top: 3vh;
+    transform: skew(0deg, 10deg);
+    @include mobileLarge{
+        left: 3vh;
+        top: 5vh;
+    }
+
+    @include tablet{
+        left: 6vh;
+    }
+
+    @include desktop{
+        left: 8vh;
+    }
+
+    &-text{
+        color: #FF3131;
+        font-size: 1.75rem; 
+
+        @include tablet{
+            font-size: 2.5rem;
+        }
+
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+
+    &-score{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+
+        @include tablet{
+            font-size: 2.5rem;
+        }
+
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+}
+
+.hud__center{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+
+    &-text{
+        font-size: 2rem;
+        animation: pulse 0.5s ease-in-out infinite, wiggle 0.3s ease-in infinite;
+    }
+}
+
+.hud__right{
+    position: absolute;
+    right: 3vh;
+    top: 3vh;
+    transform: skew(0deg, -10deg);
+    
+    @include mobileLarge{
+        right: 3vh;
+        top: 5vh;
+
+    }
+
+    @include tablet{
+     right: 6vh; 
+    }
+
+    @include desktop{
+       right: 8vh; 
+    }
+
+
+    &-text{
+        color: #FF3131;
+        font-size: 1.75rem;
+
+        @include tablet{
+            font-size: 2.5rem;
+        }
+
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+
+    &-speed{
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+
+        @include tablet{
+            font-size: 2.5rem;
+        }
+
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+}

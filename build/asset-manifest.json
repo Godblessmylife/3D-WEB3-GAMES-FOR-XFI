@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50edefc0.chunk.css",
+    "main.js": "/static/js/main.626e60bb.chunk.js",
+    "main.js.map": "/static/js/main.626e60bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.71c5bbf3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.71c5bbf3.js.map",
+    "static/js/2.ef1ca379.chunk.js": "/static/js/2.ef1ca379.chunk.js",
+    "static/js/2.ef1ca379.chunk.js.map": "/static/js/2.ef1ca379.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.50edefc0.chunk.css.map": "/static/css/main.50edefc0.chunk.css.map",
+    "static/js/2.ef1ca379.chunk.js.LICENSE.txt": "/static/js/2.ef1ca379.chunk.js.LICENSE.txt",
+    "static/media/DogeShipV3.cc7a3b48.gltf": "/static/media/DogeShipV3.cc7a3b48.gltf",
+    "static/media/DogecoinLogo.c74676b5.jfif": "/static/media/DogecoinLogo.c74676b5.jfif",
+    "static/media/index.scss": "/static/media/Orbitron-SemiBold.a8939dce.woff2",
+    "static/media/arrowKeys.57ce713e.png": "/static/media/arrowKeys.57ce713e.png",
+    "static/media/blockchain.7e60035b.jpg": "/static/media/blockchain.7e60035b.jpg",
+    "static/media/dogeBackgroundRevised.2b69af51.png": "/static/media/dogeBackgroundRevised.2b69af51.png",
+    "static/media/dogeCoinIcon.7008ccc7.svg": "/static/media/dogeCoinIcon.7008ccc7.svg",
+    "static/media/doge_coin.8e0d4090.png": "/static/media/doge_coin.8e0d4090.png",
+    "static/media/neonGalaxy.dfe2f1ec.jpg": "/static/media/neonGalaxy.dfe2f1ec.jpg",
+    "static/media/wasdKeys.5526cd79.png": "/static/media/wasdKeys.5526cd79.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71c5bbf3.js",
+    "static/js/2.ef1ca379.chunk.js",
+    "static/css/main.50edefc0.chunk.css",
+    "static/js/main.626e60bb.chunk.js"
+  ]
+}
