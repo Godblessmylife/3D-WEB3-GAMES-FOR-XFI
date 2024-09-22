@@ -2,7 +2,7 @@
 <h2>Click the Link to Play</h2>
 
 
-# Doge-to-The-Moon
+
 
 ![DogeBackground](/src/Assets/Texture/dogeBackgroundRevised.png)
 
