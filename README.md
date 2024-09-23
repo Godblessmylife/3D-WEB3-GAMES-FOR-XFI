@@ -1,10 +1,6 @@
 
 
 
-
-
-![DogeBackground](/src/Assets/Texture/dogeBackgroundRevised.png)
-
 <h3> An Endless 3D Runner Game</h2>
 
 
